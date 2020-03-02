@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <title>Rezonence Interstitial Test</title>
+    <link rel="stylesheet" type="text/css" href="PbFrmt.css">
+    <link rel="stylesheet" type="text/css" href="AdFrmt.css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="r3z-addoor" style="">
+        <div>
+            <div id="r3z-inst-top" class="r3z-inst">
+                <span>▼</span>
+                    <p id="r3z-inst">Please answer the question below to return to the app.</p>
+                <span>▼</span>
+            </div>
+            <div id="r3z-banner-card">
+                <div id="r3z-ban">
+                    <a id="r3z-link" target="_blank">
+                        <img id="r3z-img" src="https://r3z-test-eu.S3.amazonaws.com/Ads/R3Z/QATest/2019/FreeWall_engagement__1_.png">
+                    </a>
+                </div>
+                <div>
+                    <div class="r3z-iact" id="r3z-qna" style="">
+                        <p id="r3z-quest">What do FreeWall advertisers pay for?</p>
+                        <div id="r3z-anslst" class="r3z-horizontal">
+                            <a id="correct" class="r3z-but r3z-ansbut r3z-ans-1 r3z-ansbut-1"><span>Human Engagement</span></a>
+                            <a class="wrong r3z-but r3z-ansbut r3z-ans-2 r3z-ansbut-2"><span>Click-Throughs</span></a>
+                            <a class="wrong r3z-but r3z-ansbut r3z-ans-2 r3z-ansbut-2"><span>Views</span></a>
+                            <a class="wrong r3z-but r3z-ansbut r3z-ans-2 r3z-ansbut-2"><span>Impressions</span></a>
+                        </div>
+                    </div>
+                    <div class="r3z-iact" id="r3z-try" style="display: none;">
+                        <p id="r3z-hint">Hint: Please try again</p>
+                        <div id="r3z-trybut" class="r3z-but">Try Again</div>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://r3z-test-eu.S3.amazonaws.com/Ads/Demos/eu-west-1:a0bb37f9-f3af-442b-84ee-1ae188f259be/preview/MPb2j/XSiFrm.html" id="r3z-ifrm" frameborder="0" scrolling="no"></iframe>
+            <div id="r3z-inst-bot" class="r3z-inst">
+                <span>▲</span><p>Please answer the question above to return to the app.</p><span>▲</span>
+            </div>
+        </div>
+    </div>
+    <div id="r3z-response" style="display: none;">
+        <div>
+            <iframe id="r3z-rifrm-0" class="r3z-ifrm" frameborder="0" scrolling="no" src="about:blank" style="display: none;"></iframe>
+            <a id="r3z-rlink" target="_blank" style="" href="https://www.rezonence.com">
+                <img id="r3z-rimg" src="https://r3z-test-eu.S3.amazonaws.com/Ads/R3Z/QATest/2019/Response_engagement.png">
+                <iframe id="r3z-rbar-0" class="r3z-bar" frameborder="0" scrolling="no" src="about:blank" style="display: none;"></iframe>
+                <div>
+                    <div class="r3z-vid-home" id="r3z-rvid-0" style="display: none;"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script>
+    const correctAnswer = document.getElementById("correct");
+    const adDoor = document.getElementById("r3z-addoor");
+    const response = document.getElementById("r3z-response");
+    const tryAgain = document.getElementById("r3z-try");
+    const questions = document.getElementById("r3z-qna");
+    const tryButton = document.getElementById("r3z-trybut");
+    const wrongAnswers = Array.from(document.getElementsByClassName("wrong"));
+
+    for (const wrongAnswer of wrongAnswers) {
+        wrongAnswer.onclick = () => {
+            tryAgain.style.display = "block";
+            questions.style.display = "none";
+        };
+    }
+
+    correctAnswer.onclick = () => {
+        adDoor.style.display = "none";
+        response.style.display = "block";
+    };
+
+    tryButton.onclick = () => {
+        tryAgain.style.display = "none";
+        questions.style.display = "block";
+    }
+
+</script>
+</html>

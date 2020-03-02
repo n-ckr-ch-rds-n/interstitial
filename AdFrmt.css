@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Set formatting for the outer ad-door div element */
+#wrapper {
+    margin-top: 250px;
+}
+
+html body #r3z-addoor {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+html body #r3z-banner-card {
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+
+html body #r3z-addoor #r3z-ban {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    width: 100% !important;
+}
+
+/* Set the main image to autoscale */
+html body #r3z-addoor #r3z-img {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Formatting for the question and hint */
+html body #r3z-addoor #r3z-qna #r3z-quest,
+html body #r3z-addoor #r3z-try #r3z-hint {
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    text-indent: 0 !important;
+    text-shadow: none !important;
+    line-height: 1 !important;
+
+    margin: 25px 20px 15px !important;
+    text-align: center !important;
+
+    font-family: "Roboto", "Arial Narrow", Arial, sans-serif !important;
+    font-size: 21px !important;
+    color: black !important;
+}
+
+/* The interactive portions, which are two divs, one holding the q&a
+   and the other holding the hint and try again button */
+html body #r3z-addoor .r3z-iact {
+    margin: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: #fafafa !important;
+    border: 1px solid #f0f0f0 !important;
+    box-sizing: border-box !important;
+    display: block;
+    overflow: hidden !important;
+}
+
+/* Format for all buttons, so all answers and try again */
+html body #r3z-addoor .r3z-but {
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+
+    text-indent: 0 !important;
+    text-shadow: none !important;
+    line-height: 1 !important;
+
+    color: black !important;
+    background-color: white !important;
+    background-image: none !important;
+    padding: 15px 10px !important;
+    border-radius: 2px !important;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .15) !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    overflow: hidden !important;
+
+    font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px !important;
+}
+
+/* Format for all buttons on mouse hover */
+html body #r3z-addoor .r3z-but:hover {
+    color: #000 !important;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, .4) !important;
+}
+
+html body #r3z-addoor .r3z-but span {
+    cursor: pointer !important;
+}
+
+/* Specific formatting for the try again button */
+html body #r3z-addoor #r3z-try #r3z-trybut {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px !important;
+    margin-top: 30px !important;
+}
+
+html body #r3z-addoor #r3z-try #r3z-trybut:hover {
+}
+
+/* Format the div that holds the response and kickers*/
+#r3z-response, #r3z-kicker {
+    margin: 10px 0 10px 0 !important;
+    padding: 0 !important;
+    border: 1px solid hsl(0, 0%, 94%) !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    width: 100% !important;
+    overflow: hidden !important;
+    line-height: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+
+/* Format the iframes */
+html body #r3z-fwifrm.r3z-ifrm,
+html body #r3z-response .r3z-ifrm,
+html body #r3z-kicker .r3z-ifrm {
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    width: 100% !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    max-width: 100%;
+}
+
+/* Format the response image, basically get it to autoscale as well */
+html body #r3z-response #r3z-rimg {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    box-sizing: border-box !important;
+}
+
+/* Format the kicker image, basically get it to autoscale as well */
+html body #r3z-kicker #r3z-kimg {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    box-sizing: border-box !important;
+}
+
+/* Format the r&k bars */
+html body #r3z-response .r3z-bar, html body #r3z-kicker .r3z-bar {
+    margin: 2px 0 0 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    height: 30px !important;
+}
+
+/* Format for the iframe at the very bottom that will usually show a powered by
+   rezonence message */
+html body #r3z-addoor #r3z-ifrm {
+    display: block !important;
+    margin: 8px 0 25px 0 !important;
+    border: 0 !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    background: transparent !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    height: 16px !important;
+    overflow: hidden !important;
+    max-width: 100%;
+}
+
+/* Fix for button font colour */
+a.r3z-but span {
+    color: inherit !important;
+}
+
+/* Formatting for the div that holds all the answer buttons */
+html body #r3z-addoor #r3z-qna #r3z-anslst {
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 20px;
+    /* Hides the answers component which stops it from responding to hover so it only
+    reduces the opacity when hovering over the buttons, which are set to visible */
+    visibility: hidden;
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst.r3z-horizontal {
+    display: -ms-flexbox;
+    flex-direction: row;
+    -ms-flex-direction: row;
+
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst:hover > * {
+    opacity: 0.7;
+}
+
+/* Set custom styling for Internet Explorer 10 */
+@media screen and (min-width:0\0){
+    html body #r3z-addoor #r3z-qna #r3z-anslst {
+        display: block;
+    }
+}
+
+/* Specific formatting for the answer buttons */
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut {
+    margin: 5px;
+    width: 90%;
+    line-height: 1;
+    border-radius: 2px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.15);
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* Makes the answer button component visible (and hoverable) so answers component reduces the opacity
+    of the buttons when hovering over them */
+    visibility: visible;
+    transition: ease-in-out 200ms;
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut:hover {
+    /* Makes the hovered over button full opacity again */
+    opacity: 1;
+    box-shadow: 0 3px 20px rgba(0,0,0,.4);
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst.r3z-horizontal .r3z-ansbut {
+    height: 50px;
+}
+
+/* Set custom styling for Internet Explorer 10 */
+@media screen and (min-width:0\0){
+    html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut {
+        padding: 5px 10px !important;
+        margin: 10px 5px;
+    }
+}
+
+/* Reset CSS for the span that holds the answer text */
+html body #r3z-addoor #r3z-qna #r3z-anslst span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+/* Specific formatting for answer buttons 1 through to 6, more can be
+  easily added, uncomment the code below to activate */
+/*
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-1 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-1:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-2 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-2:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-3 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-3:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-4 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-4:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-5 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-5:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-6 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ansbut-6:hover {
+}
+*/
+
+/* Specific formatting for answers 1 through to 6, more can be easily
+  added, uncomment the code below to activate */
+/*
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-1 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-1:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-2 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-2:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-3 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-3:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-4 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-4:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-5 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-5:hover {
+}
+
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-6 {
+}
+html body #r3z-addoor #r3z-qna #r3z-anslst .r3z-ansbut.r3z-ans-6:hover {
+}
+*/

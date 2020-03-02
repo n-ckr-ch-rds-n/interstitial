@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'redacted_scriptbold';
+    src: url('[CDN]Com/fonts/redacted-script-bold.eot');
+    src: url('[CDN]Com/fonts/redacted-script-bold.eot?#iefix') format('embedded-opentype'),
+    url('[CDN]Com/fonts/redacted-script-bold.woff2') format('woff2'),
+    url('[CDN]Com/fonts/redacted-script-bold.woff') format('woff'),
+    url('[CDN]Com/fonts/redacted-script-bold.ttf') format('truetype'),
+    url('[CDN]Com/fonts/redacted-script-bold.svg#redacted_scriptbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.r3z-inst {
+    display: table;
+    color: white;
+    background: red;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.r3z-inst span {
+    display: table-cell;
+    width: 5%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.r3z-inst p {
+    display: table-cell;
+    width: 90%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#r3z-inst-bot {
+    margin-top: 10px;
+    z-index: 1000;
+}
+
+#r3z-inst-top {
+    margin-bottom: 10px;
+}
+
+#r3z-blkmsg {
+    display: block;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px 5px;
+}
+
+.r3z-hide, .r3z-hide * {
+    color: lightgrey !important;
+    text-decoration: none !important;
+    font-family: redacted_scriptbold !important;
+}
+
+iframe.r3z-hide, .r3z-hide iframe {
+    opacity: 0.1 !important;
+}
+
+img.r3z-hide, .r3z-hide img {
+    opacity: 0.1 !important;
+}
+
+#r3z-response iframe, #r3z-kicker iframe {
+    margin-left: 0;
+}
+
+.r3z-stick {
+    position: fixed;
+    top: 33%;
+}
+
+#r3z-addoor a[href='#r3z-addoor'] {
+    text-decoration: none !important;
+}
